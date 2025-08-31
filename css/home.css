@@ -180,7 +180,6 @@ nav ul li a.active {
 
 .main-content {
   padding: 40px 0;
-
   background: #f8f9fa;
 }
 
@@ -230,7 +229,7 @@ nav ul li a.active {
 
 .featured-courses .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   margin: 0 auto;
   padding: 20px;
