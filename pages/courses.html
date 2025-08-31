@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="../images/Favicon.png" type="image/png" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/courses.css">
+
+    <title>EduLearn | Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+        <div class="header-left">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="EduLearn Logo" />
+                </a>
+            </div>
+            <div class="ul">
+                  <nav>
+                    <ul>
+                        <li><a href="../index.html" >Home</a></li>
+                        <li><a href="courses.html" class="active">Courses</a></li>
+                        <li><a href="daschboard_student.html">My Learning</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" >Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- menuo ul in mobil -->
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" style="display:none"></i>
+
+        </div>
+        <!--  -->
+        <div class="header-right">
+            <div class="search">
+
+                <label for="search"><i id="search-icon" class="fas fa-search"></i></label>
+                <input type="search" name="search" id="search" placeholder="Search" />
+
+            </div>
+            <!-- notification -->
+
+            <i class="fa-regular fa-bell"></i>
+            <!-- close -->
+            <i class="fa-solid fa-xmark"></i>
+
+    </header>
+
+  <div class="hero" data-aos="fade-up" data-aos-duration="1200">
+    <div class="imag-hero" data-aos="fade-right" data-aos-delay="200">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, odio!</p>
+    </div>
+  </div>
+
+  <div class="filters" data-aos="fade-up" data-aos-delay="300">
+    <button>Category <i class="fas fa-caret-down"></i></button>
+    <button>Difficulty <i class="fas fa-caret-down"></i></button>
+    <button>Price <i class="fas fa-caret-down"></i></button>
+    <button>Rating <i class="fas fa-caret-down"></i></button>
+  </div>
+
+  <div class="courses">
+    <div class="course-card" data-aos="zoom-in" data-aos-delay="100">
+            <img src="../images/courses/c++.png" alt="Introduction to Data Science">
+            <div class="course-card-content">
+                <h3>Introduction to Data Science</h3>
+                <p>learn programming fundamentals, problem-solving, and object.</p>
+                <a class="course__link" href="courses/Course_c++.html" data-course="c++"
+              >View details</a
+            >
+            </div>
+        </div>
+         <div class="course-card" data-aos="zoom-in" data-aos-delay="200">
+            <img src="../images/courses/html.png" alt="Machine Learning Basics">
+            <div class="course-card-content">
+                <h3>HTML Basics</h3>
+                <p> Elements, forms, accessibility, and semantic markup.</p>
+                <a class="course__link" href="courses/Course_html.html" data-course="html"
+              >View details</a
+            >
+            </div>
+        </div>
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="300">
+            <img src="../images/courses/css.png" alt="Web Development Bootcamp">
+            <div class="course-card-content">
+                <h3>CSS Mastery</h3>
+                <p> Selectors, Flexbox, Grid, and responsive design.</p>
+                <a class="course__link" href="courses/Course_css.html" data-course="css"
+              >View details</a
+            >
+            </div>
+        </div>
+         <div class="course-card" data-aos="zoom-in" data-aos-delay="400">
+            <img src="../images/courses/js.png" alt="UI/UX Design Principles">
+            <div class="course-card-content">
+                <h3>JavaScript Fundamentals</h3>
+                <p>Variables, functions, DOM, and ES6+ features.</p>
+                <a class="course__link" href="courses/Course_js.html" data-course="js"
+              >View details</a
+            >
+            </div>
+        </div>
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="500">
+            <img src="../images/courses/figma.png" alt="Digital Marketing Fundamentals">
+            <div class="course-card-content">
+                <h3>Figma for Beginners</h3>
+                <p>Wireframes, mockups, prototyping, and collaboration in Figma.</p>
+                <a class="course__link" href="courses/Course_figma.html" data-course="figma"
+              >View details</a
+            >
+            </div>
+        </div>
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="600">
+            <img src="../images/courses/git.png" alt="Graphic Design Masterclass">
+            <div class="course-card-content">
+                <h3>Git Essentials</h3>
+                <p>Repositories, pull requests, issues, and collaboration.</p>
+                <a class="course__link" href="courses/Course_git.html" data-course="git"
+              >View details</a
+            >
+            </div>
+        </div>
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="700">
+            <img src="../images/courses/github.png" alt="Mobile App Development">
+            <div class="course-card-content">
+                <h3>GitHub Workflow</h3>
+                <p>Repositories, pull requests, issues, and collaboration.</p>
+                <a class="course__link" href="courses/Course_github.html" data-course="github"
+              >View details</a
+            >
+            </div>
+        </div>
+       
+       
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="800">
+            <img src="../images/courses/react.png" alt="Project Management Essentials">
+            <div class="course-card-content">
+                <h3>React in Action</h3>
+                <p>Components, Props, State, and Hooks.</p>
+              <a class="course__link" href="courses/Course_react.html" data-course="react"
+              >View details</a
+            >
+        </div>
+        </div>
+        <div class="course-card" data-aos="zoom-in" data-aos-delay="900">
+            <img src="../images/courses/team-work.jpg" alt="Project Management Essentials">
+            <div class="course-card-content">
+                <h3>Team Work Fundamentals</h3>
+                <p>Collaboration, communication, and project management skills.</p>
+              <a class="course__link" href="courses/Course_Team-work.html" data-course="team-work"
+              >View details</a
+            >
+        </div>
+        </div>
+    </div>
+
+    <div class="pagination" data-aos="fade-up" data-aos-delay="400">
+        <a href="#">&lt;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">&gt;</a>
+    </div>
+     <footer data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+        <div class="footer-content">
+          <!-- <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Team Members</a>
+          </div> -->
+          <div class="copyright">
+            <p>© 2025 EduLearn. All rights reserved.</p>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+      <script src="../js/script_header.js"></script>
+      <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

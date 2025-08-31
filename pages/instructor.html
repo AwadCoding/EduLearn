@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EduLearn | Instructor Profile</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/Favicon.png" type="image/png" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/instructor.css" />
+  </head>
+  <body>
+   <!-- Header -->
+     <header>
+        <div class="header-left">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="EduLearn Logo" />
+                </a>
+            </div>
+            <div class="ul">
+                  <nav>
+                    <ul>
+                        <li><a href="../index.html" >Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="daschboard_student.html">My Learning</a></li>
+                        <li><a href="about.html" >About</a></li>
+                        <li><a href="contact.html" >Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- menuo ul in mobil -->
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" style="display:none"></i>
+
+        </div>
+        <div class="header-right">
+            <div class="search">
+
+                <label for="search"><i id="search-icon" class="fas fa-search"></i></label>
+                <input type="search" name="search" id="search" placeholder="Search" />
+
+            </div>
+            <!-- notification -->
+
+            <i class="fa-regular fa-bell"></i>
+            <!-- close -->
+            <i class="fa-solid fa-xmark"></i>
+
+    </header>
+    <main class="container">
+  <!-- Profile header -->
+  <section class="profile" aria-labelledby="profile-title" data-aos="fade-up" data-aos-delay="100">
+    <img
+      class="profile__avatar"
+      src="../images/profile.png"
+      alt="Instructor profile picture"
+      data-aos="zoom-in"
+      data-aos-delay="200"
+    />
+    <div class="profile__info" data-aos="fade-left" data-aos-delay="300">
+      <h1 id="profile-title" class="profile__name">Mahmoud Abdulhamid</h1>
+      <p class="profile__role">Instructor • Web Developer</p>
+      <p class="profile__bio">
+        The instructor has over 15 years of experience in the field,
+        specializing in web development, software engineering, and data
+        science. With a strong background in both academic teaching and
+        industry practice, the instructor combines practical examples with
+        clear explanations. Their teaching style focuses on interactive
+        learning, simplifying complex concepts, and helping students build
+        real-world skills step by step.
+      </p>
+    </div>
+  </section>
+
+  <!-- Top navigation bar -->
+  <header class="topbar" data-aos="fade-down" data-aos-delay="200">
+    <div class="container">
+      <nav class="nav">
+        <a href="#about" data-section="about" data-aos="fade-right" data-aos-delay="250">About</a>
+        <a href="#courses" data-section="courses" data-aos="fade-right" data-aos-delay="300">Courses</a>
+        <a href="#contact" data-section="contact" data-aos="fade-right" data-aos-delay="350">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="card section" aria-labelledby="about-title" data-aos="fade-up" data-aos-delay="200">
+    <h2 id="about-title" class="section__title" data-aos="fade-right" data-aos-delay="250">About</h2>
+    <p data-aos="fade-left" data-aos-delay="300">
+      I hold a strong academic background supported by certifications and
+      achievements in my field. With proven experience in both learning and
+      teaching, I aim to share knowledge through a clear and practical
+      philosophy: making complex ideas simple, useful, and impactful.
+    </p>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="section" aria-labelledby="courses-title" data-aos="fade-up" data-aos-delay="200">
+    <h2 id="courses-title" class="section__title" data-aos="fade-right" data-aos-delay="250">Courses</h2>
+    <div class="courses__grid">
+      <!-- 10 Courses -->
+      <article class="course card" data-aos="zoom-in" data-aos-delay="300">
+        <img
+          src="../images/courses/c++.png"
+          alt="Course 1 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">C++ Basics</h3>
+        <p class="course__desc">
+          OOP, data structures, and problem solving with C++.
+        </p>
+        <a class="course__link" href="#" data-course="c++">View details</a>
+      </article>
+      <article class="course card" data-aos="zoom-in" data-aos-delay="350">
+        <img
+          src="../images/courses/html.png"
+          alt="Course 5 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">HTML Basics</h3>
+        <p class="course__desc">
+          Elements, forms, accessibility, and semantic markup.
+        </p>
+        <a class="course__link" href="#" data-course="HL">View details</a>
+      </article>
+      <article class="course card" data-aos="zoom-in" data-aos-delay="400">
+        <img
+          src="../images/courses/css.png"
+          alt="Course 2 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">CSS Mastery</h3>
+        <p class="course__desc">
+          Selectors, Flexbox, Grid, and responsive design.
+        </p>
+        <a class="course__link" href="#" data-course="css">View details</a>
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="450">
+        <img
+          src="../images/courses/js.png"
+          alt="Course 3 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">JavaScript Fundamentals</h3>
+        <p class="course__desc">
+          Variables, functions, DOM, and ES6+ features.
+        </p>
+        <a class="course__link" href="#" data-course="js-beginners"
+          >View details</a
+        >
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="500">
+        <img
+          src="../images/courses/git.png"
+          alt="Course 4 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">Git Essentials</h3>
+        <p class="course__desc">
+          Repositories, pull requests, issues, and collaboration.
+        </p>
+        <a class="course__link" href="#" data-course="git">View details</a>
+      </article>
+      <article class="course card" data-aos="zoom-in" data-aos-delay="550">
+        <img
+          src="../images/courses/github.png"
+          alt="Course 9 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">GitHub Workflow</h3>
+        <p class="course__desc">
+          Repositories, pull requests, issues, and collaboration.
+        </p>
+        <a class="course__link" href="#" data-course="github"
+          >View details</a
+        >
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="600">
+        <img
+          src="../images/courses/react.png"
+          alt="Course 6 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">React in Action</h3>
+        <p class="course__desc">Components, Props, State, and Hooks.</p>
+        <a class="course__link" href="#" data-course="react"
+          >View details</a
+        >
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="650">
+        <img
+          src="../images/courses/sass.png"
+          alt="Course 7 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">Sass & SCSS</h3>
+        <p class="course__desc">
+          Variables, mixins, nesting, and modular CSS.
+        </p>
+        <a class="course__link" href="#" data-course="sass">View details</a>
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="700">
+        <img
+          src="../images/courses/team-work.jpg"
+          alt="Course 8 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">Teamwork</h3>
+        <p class="course__desc">
+          Collaboration, communication, and project management.
+        </p>
+        <a class="course__link" href="#" data-course="teamwork"
+          >View details</a
+        >
+      </article>
+
+      <article class="course card" data-aos="zoom-in" data-aos-delay="750">
+        <img
+          src="../images/courses/figma.png"
+          alt="Course 10 cover"
+          class="course__cover"
+        />
+        <h3 class="course__title">Figma for Beginners</h3>
+        <p class="course__desc">
+          Wireframes, mockups, prototyping, and collaboration in Figma.
+        </p>
+        <a class="course__link" href="#" data-course="figma"
+          >View details</a
+        >
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section
+    id="contact"
+    class="card section"
+    aria-labelledby="contact-title"
+    data-aos="fade-up"
+    data-aos-delay="300"
+  >
+    <h2 id="contact-title" class="section__title" data-aos="fade-right" data-aos-delay="350">Contact</h2>
+    <ul class="contact__list">
+      <li data-aos="fade-left" data-aos-delay="400">
+        <a href="mailto:instructor@example.com">
+          <i class="fa-solid fa-envelope"></i> instructor@example.com</a>
+      </li>
+      <li data-aos="fade-left" data-aos-delay="450">
+        <a href="#" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      </li>
+      <li data-aos="fade-left" data-aos-delay="500">
+        <a href="#" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-github"></i> GitHub</a>
+      </li>
+      <li data-aos="fade-left" data-aos-delay="550">
+        <a href="#" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-facebook"></i> Facebook</a>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer data-aos="fade-up" data-aos-delay="200">
+  <div class="container">
+    <div class="footer-content">
+      <div class="copyright">
+        <p>© 2024 EduLearn. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#" data-aos="zoom-in" data-aos-delay="300"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" data-aos="zoom-in" data-aos-delay="350"><i class="fab fa-twitter"></i></a>
+      <a href="#" data-aos="zoom-in" data-aos-delay="400"><i class="fab fa-instagram"></i></a>
+      <a href="#" data-aos="zoom-in" data-aos-delay="450"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" data-aos="zoom-in" data-aos-delay="500"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+
+  
+    <script src="../js/instructor.js"></script>
+    <script src="../js/script_header.js"></script>
+    <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>
+
